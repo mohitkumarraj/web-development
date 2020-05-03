@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description ">
+    <meta name="keyowords" content="html, html tutorial, web development">
+    <title>Navigation Bar</title>
+
+<style>
+
+*{
+margin: 0%;
+padding: 0%;
+}
+
+
+/* all nav bar */
+
+
+#bg{
+    
+    background-image: url("image.jpg");
+    background-size: 100% 100%;
+
+    width: 100%;
+    height: 3000px;
+}
+
+
+.navbar{   
+background-color: black;
+border-radius: 40px;
+margin-left: 7px;
+    margin-right: 7px;
+ position: sticky;
+ top: 3px;
+}
+
+.navbar li{
+float: left;
+list-style: none;
+margin: 13px 20px;
+
+}
+
+.navbar ul{
+   
+  overflow: auto;
+/* color: white; */
+
+}
+.navbar li a{
+    
+    text-decoration: none;
+    padding:3px 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar li a:hover{
+color:cyan;
+/* background-color: cyan; */
+}
+
+.search{
+color:white;
+float: left;
+margin-top: 9px;
+margin-left: 820px;
+/* padding-top: 13px;
+padding-left: 747px; */
+}
+
+.navbar div input{
+    width: 137px;
+    border:3px solid rgb(240, 94, 94);
+    border-radius: 20px;
+    padding:3px;
+    
+
+}
+header{
+position: sticky;
+top: 4px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id="bg">
+
+    <header>
+        
+        <nav class="navbar">
+        
+         <ul>
+         <li><a href="#">HOME</a></li>
+         <li><a href="#">ABOUT</a></li>
+         <li><a href="#">SERVICES</a></li>
+         <li><a href="#">CONTACT US</a></li>
+              
+         <div class="search">
+             <input type="text" name="searchbox" id="search" placeholder="Search this website">  
+           </div>
+     </ul>
+     
+         </nav>
+</header>
+
+
+
+
+</div>
+
+</body>
+</html>

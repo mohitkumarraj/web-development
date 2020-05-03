@@ -1,0 +1,132 @@
+
+
+
+
+
+
+
+
+header {
+    border-radius: 4px;
+    /* border: 2px solid red; */
+}
+
+.left {
+    color: white;
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    /* height: 12px; */
+    top: 15px;
+    left: 60px;
+}
+
+.left img {
+    width: 119px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.left div {
+    display: block;
+    text-align: center;
+    line-height: 13px;
+    font-size: 20px;
+
+}
+
+.mid {
+    color: white;
+    display: block;
+    margin: 20px auto;
+    width: 49%;
+    /* background-color: rgb(60, 60, 102); */
+    /* text-align: center; */
+    /* border: 2px solid black; */
+/* border-radius: 10px; */
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px 17px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(99, 236, 220);
+    text-decoration: underline;
+}
+
+
+.right {
+    color: white;
+    position: absolute;
+    top: 32px;
+    right: 34px;
+    display: inline-block;
+    /* border: 2px solid blue; */
+}
+
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 7px;
+    background-color: black;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(199, 192, 192);
+}
+
+.container {
+    color: honeydew;
+    /* border: 2px solid white; */
+    padding: 65px;
+    margin: 20px 59px;
+    width: 31%;
+    border-radius: 31px;
+}
+
+.formgroup input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 447px;
+    padding: 9px;
+    border: 2px solid white;
+    margin: 9px auto;
+    border-radius: 18px;
+    font-size: 18px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container button {
+    font-family: 'Baloo Bhai 2', cursive;
+    display: block;
+    width: 98%;
+    padding: 9px;
+    margin: 9px auto;
+    font-size: 18px;
+}
+
